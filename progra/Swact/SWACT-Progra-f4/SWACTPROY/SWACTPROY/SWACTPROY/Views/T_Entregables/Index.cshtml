@@ -1,0 +1,74 @@
+﻿@model IEnumerable<SWACTPROY.Models.T_Entregables>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Entregable</h2>
+
+
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.fecha)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.horaInicio)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.horaFin)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.estado)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.T_OrdenTrabajo)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+        
+            @foreach (var item in Model)
+            {
+
+                int x = int.Parse(@ViewContext.RouteData.Values["id"].ToString());
+                if(item.idOrdenTrabajo== x)
+                {
+
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.fecha)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.horaInicio)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.horaFin)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.estado)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.T_OrdenTrabajo.idOrdenTrabajo)
+                    </td>
+                    <td>
+                        @*<a asp-action="Edit" asp-route-id="@item.idEntregable">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.idEntregable">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.idEntregable">Delete</a>*@
+                    </td>
+                </tr>
+                }
+            }
+
+
+
+        </tbody>
+    </table>

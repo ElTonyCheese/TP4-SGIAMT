@@ -1,0 +1,47 @@
+﻿@model SWACTPROY.Models.T_Cliente
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h2>Eliminar Nro @ViewContext.RouteData.Values["id"]</h2>
+
+
+<div>
+   
+    <hr />
+    <dl class="dl-horizontal">
+        @*<dt>
+            @Html.DisplayNameFor(model => model.idUsuario)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.idUsuario)
+        </dd>*@
+        <dt>
+            @Html.DisplayNameFor(model => model.razonSocial)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.razonSocial)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ruc)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ruc)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.direccion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.direccion)
+        </dd>
+     
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="idCliente" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Index">Atras</a>
+    </form>
+</div>

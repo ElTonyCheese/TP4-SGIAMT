@@ -1,0 +1,81 @@
+﻿@model IEnumerable<SWACTPROY.Models.T_Versionamiento>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h2>Historial de Cotizaciones</h2>
+<br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nombrepdf)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.duracion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fechaCreacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fechaModificacion)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.detalleRespuesta)
+            </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.estado)
+            </th>
+         
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombrepdf)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.duracion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.precio) soles
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaCreacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaModificacion)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.detalleRespuesta)
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.estado)
+            </td>
+
+            @*<td>
+                @Html.DisplayFor(modelItem => item.idCotizacion)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.idSolicitud)
+            </td>*@
+            <td>
+                @*<a asp-action="Edit" asp-route-id="@item.idVersion">Edit</a> |*@
+                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.idVersion">Ver</a>
+                @*<a asp-action="Delete" asp-route-id="@item.idVersion">Delete</a>*@
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

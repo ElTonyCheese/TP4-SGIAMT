@@ -1,0 +1,43 @@
+﻿@model SWACTPROY.Models.T_Servicio
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h2>Crear Servicio</h2>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="nombreServicio" class="control-label"></label>
+                <input asp-for="nombreServicio" class="form-control" />
+                <span asp-validation-for="nombreServicio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="detalle" class="control-label"></label>
+                <input asp-for="detalle" class="form-control" />
+                <span asp-validation-for="detalle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="idRubro" class="control-label">Rubro</label>
+                <select asp-for="idRubro" class ="form-control" asp-items="ViewBag.idRubro"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Atras</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

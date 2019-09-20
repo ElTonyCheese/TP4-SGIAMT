@@ -1,0 +1,73 @@
+﻿@model SWACTPROY.Models.T_Usuario
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>T_Usuario</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.contraseña)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.contraseña)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.apellidopaterno)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.apellidopaterno)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.apellidomaterno)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.apellidomaterno)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.documento)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.documento)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.telefono)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.telefono)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.direccion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.direccion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.estado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.estado)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.idUsuario">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,76 @@
+﻿@model IEnumerable<SWACTPROY.Models.T_Solicitud>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Solicitudes</h2>
+<br />
+<p>
+    <a class="btn btn-success" asp-action="Create">Crear</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.estado)
+            </th>
+            <th>
+               Razon Social
+            </th>
+
+            <th>
+               Representante
+            </th>
+
+            <th>
+               Servicio
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.T_Cliente.razonSocial)
+            </td>
+            <td>
+
+                @Html.DisplayFor(modelItem => item.T_Cliente.T_Usuario.nombre)  @Html.DisplayFor(modelItem => item.T_Cliente.T_Usuario.apellidopaterno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.T_Servicio.nombreServicio)
+            </td>
+            <td>
+
+                <a class="btn btn-danger" asp-action="Details" asp-route-id="@item.idSolicitud">Detalles</a> |
+
+                @if (item.estado == "Revisada" && item.ordentrabajo == "No")
+    {
+
+
+            <a class="btn btn-primary" asp-controller="T_OrdenTrabajo" asp-action="Create" asp-route-id="@item.idSolicitud">Orden de Trabajo</a>
+             
+
+}
+
+
+
+                @if (item.estado == "Pendiente" || item.estado == "Revisada") { 
+
+            <a class="btn btn-info" asp-controller="T_Cotizacion" asp-action="Create" asp-route-id="@item.idSolicitud">Cotizar</a>
+
+
+                }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

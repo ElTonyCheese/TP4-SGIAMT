@@ -1,0 +1,156 @@
+C:\Users\Sergio\Desktop\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.deps.json
+C:\Users\Sergio\Desktop\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.json
+C:\Users\Sergio\Desktop\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.dev.json
+C:\Users\Sergio\Desktop\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Sergio\Desktop\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Sergio\Desktop\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Desktop\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Sergio\Desktop\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfoInputs.cache
+C:\Users\Sergio\Desktop\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfo.cs
+C:\Users\Sergio\Desktop\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Sergio\Desktop\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Sergio\Desktop\SWACT-Progra\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.deps.json
+C:\Users\Sergio\Desktop\SWACT-Progra\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.json
+C:\Users\Sergio\Desktop\SWACT-Progra\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.dev.json
+C:\Users\Sergio\Desktop\SWACT-Progra\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Sergio\Desktop\SWACT-Progra\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Sergio\Desktop\SWACT-Progra\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Desktop\SWACT-Progra\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\SWACT-Progra\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Sergio\Desktop\SWACT-Progra\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfoInputs.cache
+C:\Users\Sergio\Desktop\SWACT-Progra\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfo.cs
+C:\Users\Sergio\Desktop\SWACT-Progra\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Sergio\Desktop\SWACT-Progra\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Sergio\Desktop\SWACT-Progra-f\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.deps.json
+C:\Users\Sergio\Desktop\SWACT-Progra-f\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.json
+C:\Users\Sergio\Desktop\SWACT-Progra-f\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.dev.json
+C:\Users\Sergio\Desktop\SWACT-Progra-f\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Sergio\Desktop\SWACT-Progra-f\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Sergio\Desktop\SWACT-Progra-f\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Desktop\SWACT-Progra-f\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\SWACT-Progra-f\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Sergio\Desktop\SWACT-Progra-f\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfoInputs.cache
+C:\Users\Sergio\Desktop\SWACT-Progra-f\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfo.cs
+C:\Users\Sergio\Desktop\SWACT-Progra-f\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Sergio\Desktop\SWACT-Progra-f\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Sergio\Desktop\SWACT-Progra-f3\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.deps.json
+C:\Users\Sergio\Desktop\SWACT-Progra-f3\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.json
+C:\Users\Sergio\Desktop\SWACT-Progra-f3\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.dev.json
+C:\Users\Sergio\Desktop\SWACT-Progra-f3\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Sergio\Desktop\SWACT-Progra-f3\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Sergio\Desktop\SWACT-Progra-f3\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Desktop\SWACT-Progra-f3\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\SWACT-Progra-f3\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Sergio\Desktop\SWACT-Progra-f3\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfoInputs.cache
+C:\Users\Sergio\Desktop\SWACT-Progra-f3\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfo.cs
+C:\Users\Sergio\Desktop\SWACT-Progra-f3\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Sergio\Desktop\SWACT-Progra-f3\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Sergio\Desktop\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.deps.json
+C:\Users\Sergio\Desktop\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.json
+C:\Users\Sergio\Desktop\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.dev.json
+C:\Users\Sergio\Desktop\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Sergio\Desktop\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Sergio\Desktop\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Sergio\Desktop\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfoInputs.cache
+C:\Users\Sergio\Desktop\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfo.cs
+C:\Users\Sergio\Desktop\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Sergio\Desktop\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Sergio\Desktop\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csprojResolveAssemblyReference.cache
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\Programacion Ejemplos\4ta Ite\r\Progra3\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.deps.json
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\Programacion Ejemplos\4ta Ite\r\Progra3\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.json
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\Programacion Ejemplos\4ta Ite\r\Progra3\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.dev.json
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\Programacion Ejemplos\4ta Ite\r\Progra3\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\Programacion Ejemplos\4ta Ite\r\Progra3\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\Programacion Ejemplos\4ta Ite\r\Progra3\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csprojAssemblyReference.cache
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\Programacion Ejemplos\4ta Ite\r\Progra3\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csproj.CoreCompileInputs.cache
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\Programacion Ejemplos\4ta Ite\r\Progra3\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\Programacion Ejemplos\4ta Ite\r\Progra3\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfoInputs.cache
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\Programacion Ejemplos\4ta Ite\r\Progra3\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfo.cs
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\Programacion Ejemplos\4ta Ite\r\Progra3\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\Programacion Ejemplos\4ta Ite\r\Progra3\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Sergio\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.deps.json
+C:\Users\Sergio\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.json
+C:\Users\Sergio\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.dev.json
+C:\Users\Sergio\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Sergio\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Sergio\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Sergio\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfoInputs.cache
+C:\Users\Sergio\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfo.cs
+C:\Users\Sergio\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Sergio\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Renzo6998\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.deps.json
+C:\Users\Renzo6998\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.json
+C:\Users\Renzo6998\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.dev.json
+C:\Users\Renzo6998\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Renzo6998\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Renzo6998\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csprojAssemblyReference.cache
+C:\Users\Renzo6998\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csproj.CoreCompileInputs.cache
+C:\Users\Renzo6998\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Renzo6998\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfoInputs.cache
+C:\Users\Renzo6998\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfo.cs
+C:\Users\Renzo6998\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Renzo6998\Desktop\Progra4\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Sergio\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.deps.json
+C:\Users\Sergio\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.json
+C:\Users\Sergio\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.dev.json
+C:\Users\Sergio\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Sergio\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Sergio\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Sergio\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfoInputs.cache
+C:\Users\Sergio\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfo.cs
+C:\Users\Sergio\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Sergio\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\LLINA\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.deps.json
+C:\Users\LLINA\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.json
+C:\Users\LLINA\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.dev.json
+C:\Users\LLINA\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\LLINA\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\LLINA\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csprojAssemblyReference.cache
+C:\Users\LLINA\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csproj.CoreCompileInputs.cache
+C:\Users\LLINA\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\LLINA\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfoInputs.cache
+C:\Users\LLINA\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfo.cs
+C:\Users\LLINA\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\LLINA\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Sergio\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.deps.json
+C:\Users\Sergio\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.json
+C:\Users\Sergio\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.dev.json
+C:\Users\Sergio\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Sergio\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Sergio\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Sergio\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfoInputs.cache
+C:\Users\Sergio\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfo.cs
+C:\Users\Sergio\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Sergio\Desktop\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\5ta Iteracion\proyectoswact\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.deps.json
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\5ta Iteracion\proyectoswact\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.json
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\5ta Iteracion\proyectoswact\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.dev.json
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\5ta Iteracion\proyectoswact\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\5ta Iteracion\proyectoswact\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\5ta Iteracion\proyectoswact\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csprojAssemblyReference.cache
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\5ta Iteracion\proyectoswact\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csproj.CoreCompileInputs.cache
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\5ta Iteracion\proyectoswact\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\5ta Iteracion\proyectoswact\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfoInputs.cache
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\5ta Iteracion\proyectoswact\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfo.cs
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\5ta Iteracion\proyectoswact\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Renzo6998\Desktop\Taller de Proyectos\5ta Iteracion\proyectoswact\SWACT\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Windows 8.1\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.deps.json
+C:\Users\Windows 8.1\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.json
+C:\Users\Windows 8.1\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.runtimeconfig.dev.json
+C:\Users\Windows 8.1\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Windows 8.1\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\bin\Debug\netcoreapp2.0\SWACTPROY.pdb
+C:\Users\Windows 8.1\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csprojAssemblyReference.cache
+C:\Users\Windows 8.1\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.csproj.CoreCompileInputs.cache
+C:\Users\Windows 8.1\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Windows 8.1\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfoInputs.cache
+C:\Users\Windows 8.1\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.AssemblyInfo.cs
+C:\Users\Windows 8.1\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.dll
+C:\Users\Windows 8.1\Desktop\Progra5\SWACT-Progra-f4\SWACTPROY\SWACTPROY\SWACTPROY\obj\Debug\netcoreapp2.0\SWACTPROY.pdb
