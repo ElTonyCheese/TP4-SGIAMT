@@ -1,41 +1,29 @@
 
-insert into E_Departamento values (1,'piura')
-insert into E_Departamento values (2,'lima')
-
---departamento piura
-
-insert into E_Provincia values (1,'paita',1)
-insert into E_Provincia values (2,'huancabamba',1)
 
 --provincia paita
 
-insert into E_Distrito values (1,'LA HUACA',1)
-insert into E_Distrito values (2,'AMOTAPE',1)
+insert into E_Distrito values (1,'Ancón')
+insert into E_Distrito values (2,'Ate Vitarte')
 
 --provincia huancabamba
 
-insert into E_Distrito values (3,'huarmaca',2)
-insert into E_Distrito values (4,'canchaque',2)
+insert into E_Distrito values (3,'barranco')
+insert into E_Distrito values (4,'breña')
 
---departamento lima
-
-insert into E_Provincia values (3,'lima',2)
-insert into E_Provincia values (4,'barranca',2)
 
 --provincia lima
 
-insert into E_Distrito values (5,'barranco',3)
-insert into E_Distrito values (6,'chorrillo',3)
+insert into E_Distrito values (5,'chorrillo')
+insert into E_Distrito values (6,'comas')
 
 --provincia barranca
 
-insert into E_Distrito values (7,'distrito de paramonga',4)
-insert into E_Distrito values (8,'distrito de pativilca',4)
+insert into E_Distrito values (7,'lima')
+insert into E_Distrito values (8,'cieneguilla')
 
 
-select * from E_Departamento 
-select * from E_Provincia
 select * from E_Distrito
+
 
 
 --categoria 
@@ -53,6 +41,7 @@ insert into E_Categoría values (10,'no tiene categoria')
 
 select * from E_Categoría
 
+
 --Tipo de usuario
 
 insert into E_TipoUsuario values (1,'alumno')
@@ -60,6 +49,7 @@ insert into E_TipoUsuario values (2,'secretaria')
 insert into E_TipoUsuario values (3,'profesor')
 
 select * from E_TipoUsuario
+
 
 -- Nivel
 

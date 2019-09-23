@@ -12541,11 +12541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Windows 8.1\\Desktop\\progra\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
+      "projectUniqueName": "C:\\Users\\Windows 8.1\\Desktop\\Repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
       "projectName": "SGIAMT",
-      "projectPath": "C:\\Users\\Windows 8.1\\Desktop\\progra\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
+      "projectPath": "C:\\Users\\Windows 8.1\\Desktop\\Repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
       "packagesPath": "C:\\Users\\Windows 8.1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Windows 8.1\\Desktop\\progra\\SGIAMT\\SGIAMT\\obj\\",
+      "outputPath": "C:\\Users\\Windows 8.1\\Desktop\\Repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
