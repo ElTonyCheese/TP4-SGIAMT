@@ -4,7 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - SGIAMT</title>
-
+    <style>
+        .ejemplo {
+            background-color: #FF0000;
+            border-color: black;
+        }
+    </style>
+    <link href="~/css/menu principal.css" />
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
@@ -17,28 +23,49 @@
     </environment>
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <link rel=" stylesheet" href="~/css/menu principal.css" />
+    <nav class=" navbar navbar-inverse  navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header" style="width:100%">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">SGIAMT</a>
+               
+                    <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">SGIAMT</a>
+                    <a id="inicio" asp-area="" asp-controller="EUsuarios" asp-action="Create" class="navbar-brand">Registrar Alumno</a>
+               
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="EUsuarios" asp-action="Create">Registrar Alumno</a></li>
-                </ul>
-            </div>
+            @*<div class="navbar-collapse collapse">
+                    <ul class="nav navbar-right">
+                        <a  asp-area="" asp-controller="EUsuarios" asp-action="Create" class="barracolor">Registrar Alumno</a>
+                    </ul>
+                </div>*@
         </div>
     </nav>
+    @* para iniciar secion *@
+        @*<ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>*@
+    @* finalizar iniciar sesion *@
+
 
     <partial name="_CookieConsentPartial" />
 
-    <div class="container body-content">
+    <div class="container body-content" >
         @RenderBody()
         <hr />
         <footer>
