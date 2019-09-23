@@ -1,0 +1,37 @@
+﻿@model SWACTPROY.Models.T_Servicio
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h2>Detalle del Servicio Nro @ViewContext.RouteData.Values["id"]</h2>
+
+<div>
+   
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombreServicio)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nombreServicio)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.detalle)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.detalle)
+        </dd>
+        <dt>
+            Rubro
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.T_Rubro.nombreRubro)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-info" asp-action="Edit" asp-route-id="@Model.idServicio">Editar</a> |
+    <a asp-action="Index">Atras</a>
+</div>

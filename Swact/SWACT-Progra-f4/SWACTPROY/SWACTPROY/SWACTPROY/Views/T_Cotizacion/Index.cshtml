@@ -1,0 +1,49 @@
+﻿@model IEnumerable<SWACTPROY.Models.T_Cotizacion>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+
+<h2>Cotizacion</h2>
+<br />
+
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nombrepdf)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.estado)
+            </th>
+            <th>
+                Detalle de la Solicitud
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nombrepdf)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.estado)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.T_Solicitud.detalle)
+                </td>
+                <td>
+                    @*<a asp-action="Edit" asp-route-id="@item.idCotizacion">Edit</a> |*@
+                    <a asp-action="Details" asp-route-id="@item.idCotizacion">Generar Factura</a> 
+                    @*<a asp-action="Imprimir" asp-route-id="@item.idCotizacion">Imprimir</a>*@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

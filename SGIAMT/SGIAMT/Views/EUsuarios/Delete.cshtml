@@ -1,0 +1,105 @@
+﻿@model SGIAMT.Models.EUsuario
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>EUsuario</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.VuNombre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VuNombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VuApaterno)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VuApaterno)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VuAmaterno)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VuAmaterno)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VuCelular)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VuCelular)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VuCorreo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VuCorreo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VuDireccion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VuDireccion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DuFechaNacimiento)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DuFechaNacimiento)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VuSexo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VuSexo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VuContraseña)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VuContraseña)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VuEstado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VuEstado)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VuHorario)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VuHorario)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PkIc)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PkIc.VcNombreCat)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PkIdiCodNavigation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PkIdiCodNavigation.VdiNombreDis)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PkItuTipoUsuarioNavigation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PkItuTipoUsuarioNavigation.VtuNombreTipoUsuario)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="PkIuDni" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

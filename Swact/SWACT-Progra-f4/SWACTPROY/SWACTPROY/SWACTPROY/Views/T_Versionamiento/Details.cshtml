@@ -1,0 +1,82 @@
+﻿@model SWACTPROY.Models.T_Versionamiento
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Cargar un pdf en DIV</title>
+    <style type="text/css">
+        #portapdf {
+            width: 900px;
+            height: 600px;
+            border: 1px solid #484848;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<br />
+<div>
+    <h4>Historial de cotizacion Nro @ViewContext.RouteData.Values["id"]</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombrepdf)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nombrepdf)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.duracion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.duracion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.precio)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.precio)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaCreacion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.fechaCreacion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaModificacion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.fechaModificacion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.detalleRespuesta)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.detalleRespuesta)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.estado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.estado)
+        </dd>
+        <dt>
+            Estado De Cotizacion
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.T_Cotizacion.estado)
+        </dd>
+        <dt>
+            <object id="portapdf" data="~/pdf/@Html.DisplayFor(model => model.nombrepdf)" type="application/pdf" width="100%" height="100%" />
+        </dt>
+    </dl>
+
+</div>
+<div>
+    @*<a asp-action="Edit" asp-route-id="@Model.idVersion">Edit</a> |*@
+    <a asp-action="Index">Atras</a>
+</div>

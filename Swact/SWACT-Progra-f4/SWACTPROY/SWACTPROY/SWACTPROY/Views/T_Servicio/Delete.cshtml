@@ -1,0 +1,40 @@
+﻿@model SWACTPROY.Models.T_Servicio
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2>Eliminar Servicio Nro @ViewContext.RouteData.Values["id"]</h2>
+
+<div>
+  
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombreServicio)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nombreServicio)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.detalle)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.detalle)
+        </dd>
+        <dt>
+               Rubro
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.T_Rubro.nombreRubro)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="idServicio" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Index">Atras</a>
+    </form>
+</div>

@@ -1,0 +1,50 @@
+﻿@model IEnumerable<SWACTPROY.Models.T_Servicio>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2>Servicios</h2>
+<br />
+<p>
+    <a class="btn btn-outline-success" asp-action="Create">Crear Nuevo Servicio</a>
+</p>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.nombreServicio)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.detalle)
+                </th>
+            <th>
+                Nombre del Rubro
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombreServicio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.detalle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.T_Rubro.nombreRubro)
+            </td>
+            <td>
+                <a class="btn btn-info" asp-action="Edit" asp-route-id="@item.idServicio">Editar</a> |
+                <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.idServicio">Detalle</a> |
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.idServicio">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
