@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Windows 8.1\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Windows 8.1\\.nuget\\packages",
+      "C:\\Users\\alumno.LABORATORIOS\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\alumno.LABORATORIOS\\.nuget\\packages",
+      "C:\\Microsoft\\Xamarin\\NuGet",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }

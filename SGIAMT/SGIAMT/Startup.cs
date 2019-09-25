@@ -36,7 +36,7 @@ namespace SGIAMT
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            var connection = @"Server=ADMINISTRADOR\ALONSO;Database=BD_SGIAMT;Trusted_Connection=True;ConnectRetryCount=0";
+            var connection = @"Server=LACING202A-17;Database=BD_SGIAMT;Trusted_Connection=True;ConnectRetryCount=0";
             services.AddDbContext<BD_SGIAMTContext>(options => options.UseSqlServer(connection));
 
         }

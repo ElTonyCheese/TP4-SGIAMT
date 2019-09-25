@@ -124,3 +124,47 @@ C:\Users\Windows 8.1\Desktop\Repor\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp
 C:\Users\Windows 8.1\Desktop\Repor\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.dll
 C:\Users\Windows 8.1\Desktop\Repor\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.pdb
 C:\Users\Windows 8.1\Desktop\Repor\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.csproj.CopyComplete
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\bin\Debug\netcoreapp2.1\SGIAMT.deps.json
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\bin\Debug\netcoreapp2.1\SGIAMT.runtimeconfig.json
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\bin\Debug\netcoreapp2.1\SGIAMT.runtimeconfig.dev.json
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\bin\Debug\netcoreapp2.1\SGIAMT.dll
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\bin\Debug\netcoreapp2.1\SGIAMT.pdb
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\bin\Debug\netcoreapp2.1\SGIAMT.Views.dll
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\bin\Debug\netcoreapp2.1\SGIAMT.Views.pdb
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.csprojAssemblyReference.cache
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.RazorAssemblyInfo.cache
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.RazorAssemblyInfo.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.AssemblyInfoInputs.cache
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.AssemblyInfo.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.TagHelpers.input.cache
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.TagHelpers.output.cache
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.RazorCoreGenerate.cache
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\ENivelxTipoNivels\Create.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\ENivelxTipoNivels\Delete.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\ENivelxTipoNivels\Details.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\ENivelxTipoNivels\Edit.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\ENivelxTipoNivels\Index.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\EUsuarios\Create.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\EUsuarios\Delete.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\EUsuarios\Details.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\EUsuarios\Edit.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\EUsuarios\Index.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.RazorTargetAssemblyInfo.cache
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.RazorTargetAssemblyInfo.cs
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.Views.pdb
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.dll
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.pdb
+C:\Users\alumno.LABORATORIOS\Desktop\Report\TP4-SGIAMT\SGIAMT\SGIAMT\obj\Debug\netcoreapp2.1\SGIAMT.csproj.CopyComplete
