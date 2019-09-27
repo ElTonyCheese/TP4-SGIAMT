@@ -14,7 +14,7 @@ namespace SGIAMT.Models
         {
             ENivelxTipoNivel = new HashSet<ENivelxTipoNivel>();
         }
-
+        [Required(ErrorMessage = "Campo Requerido")]
         [DisplayName("Dni")]
         [Range(10000000, 99999999, ErrorMessage = "el dni no tiene 8 caracteres ")]
         public int PkIuDni { get; set; }
@@ -45,14 +45,17 @@ namespace SGIAMT.Models
 
         [Required(ErrorMessage = "Campo Requerido")]
         [DisplayName("Correo")]
+        [DataType(DataType.EmailAddress)]
+        [EmailAddress(ErrorMessage = "invalido correo ")]
         [StringLength(30, MinimumLength = 0, ErrorMessage = "Ingrese el Correo")]
         public string VuCorreo { get; set; }
 
         [Required(ErrorMessage = "Campo Requerido")]
-        [DisplayName("Direccion")]
+      [DisplayName("Direccion")]
         [StringLength(30, MinimumLength = 0, ErrorMessage = "Ingrese el Direccion")]
         public string VuDireccion { get; set; }
 
+        [Required(ErrorMessage = "Campo Requerido")]
         [Display(Name = "Fecha de nacimiento")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:MM/dd/yyyy}")]
@@ -67,12 +70,12 @@ namespace SGIAMT.Models
         public string VuSexo { get; set; }
 
 
-        [Required]
+        [Required(ErrorMessage = "Campo Requerido")]
         [DataType(DataType.Password)]
         [DisplayName("contraseña")]
         public string VuContraseña { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Campo Requerido")]
         [DisplayName("Estado")]
         public string VuEstado { get; set; }
 

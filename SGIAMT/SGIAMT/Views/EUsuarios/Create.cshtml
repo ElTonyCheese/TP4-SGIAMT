@@ -56,7 +56,11 @@
                 </div>
                 <div class="form-group">
                     <label asp-for="VuSexo" class="control-label"></label>
-                    <input asp-for="VuSexo" class="form-control" />
+                    <select class="form-control" id="VuSexo" name="VuSexo">
+                        <option>seleccionar sexo</option>
+                        <option>masculino </option>
+                        <option>femenino</option>
+                    </select>
                     <span asp-validation-for="VuSexo" class="text-danger"></span>
                 </div>
                 <div class="form-group">
@@ -66,7 +70,7 @@
                 </div>
                 <div class="form-group">
                     <label asp-for="VuEstado" class="control-label"></label>
-                    <input asp-for="VuEstado" class="form-control" value="inactivo" />
+                    <input asp-for="VuEstado" readonly="readonly" class="form-control" value="inactivo" />
                     <span asp-validation-for="VuEstado" class="text-danger"></span>
                 </div>
                 <div class="form-group">

@@ -19,11 +19,11 @@ namespace SGIAMT.Controllers
         }
 
         // GET: ENivelxTipoNivels
-        //public async Task<IActionResult> Index()
-        //{
-        //    var bD_SGIAMTContext = _context.ENivelxTipoNivel.Include(e => e.PkInCodNavigation).Include(e => e.PkItnCodNavigation).Include(e => e.PkIuDniNavigation);
-        //    return View(await bD_SGIAMTContext.ToListAsync());
-        //}
+        public async Task<IActionResult> Index()
+        {
+            var bD_SGIAMTContext = _context.ENivelxTipoNivel.Include(e => e.PkInCodNavigation).Include(e => e.PkItnCodNavigation).Include(e => e.PkIuDniNavigation);
+            return View(await bD_SGIAMTContext.ToListAsync());
+        }
 
         //// GET: ENivelxTipoNivels/Details/5
         //public async Task<IActionResult> Details(int? id)
@@ -68,6 +68,7 @@ namespace SGIAMT.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Index", "Home");
             }
+           
             ViewData["PkInCod"] = new SelectList(_context.ENivel, "PkInCod", "VnNombreNivel", eNivelxTipoNivel.PkInCod);
             ViewData["PkItnCod"] = new SelectList(_context.ETipoNivel, "PkItnCod", "ItnNombreTipoNivel", eNivelxTipoNivel.PkItnCod);
             ViewData["PkIuDni"] = new SelectList(_context.EUsuario, "PkIuDni", "VuNombre", eNivelxTipoNivel.PkIuDni);
