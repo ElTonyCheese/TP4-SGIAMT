@@ -72,8 +72,7 @@ namespace SGIAMT.Models
                     .IsUnicode(false);
 
                 entity.Property(e => e.VpPdf)
-                    .HasColumnName("VP_Pdf")
-                    .HasMaxLength(1);
+                    .HasColumnName("VP_Pdf");
 
                 entity.Property(e => e.VpValor)
                     .HasColumnName("VP_Valor")

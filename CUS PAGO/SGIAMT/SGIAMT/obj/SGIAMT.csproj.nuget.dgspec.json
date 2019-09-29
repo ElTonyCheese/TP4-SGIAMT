@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Edson\\source\\repos\\SGIAMT\\SGIAMT\\SGIAMT.csproj": {}
+    "C:\\Users\\Edson\\Documents\\VirtualBoxShared\\TP\\!\\TP4-SGIAMT\\CUS PAGO\\SGIAMT\\SGIAMT\\SGIAMT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Edson\\source\\repos\\SGIAMT\\SGIAMT\\SGIAMT.csproj": {
+    "C:\\Users\\Edson\\Documents\\VirtualBoxShared\\TP\\!\\TP4-SGIAMT\\CUS PAGO\\SGIAMT\\SGIAMT\\SGIAMT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Edson\\source\\repos\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
+        "projectUniqueName": "C:\\Users\\Edson\\Documents\\VirtualBoxShared\\TP\\!\\TP4-SGIAMT\\CUS PAGO\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
         "projectName": "SGIAMT",
-        "projectPath": "C:\\Users\\Edson\\source\\repos\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
+        "projectPath": "C:\\Users\\Edson\\Documents\\VirtualBoxShared\\TP\\!\\TP4-SGIAMT\\CUS PAGO\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
         "packagesPath": "C:\\Users\\Edson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Edson\\source\\repos\\SGIAMT\\SGIAMT\\obj\\",
+        "outputPath": "C:\\Users\\Edson\\Documents\\VirtualBoxShared\\TP\\!\\TP4-SGIAMT\\CUS PAGO\\SGIAMT\\SGIAMT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

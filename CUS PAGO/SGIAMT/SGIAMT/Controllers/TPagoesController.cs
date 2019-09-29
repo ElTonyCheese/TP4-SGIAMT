@@ -48,16 +48,24 @@ namespace SGIAMT.Controllers
         // GET: TPagoes/Create
         public IActionResult Create()
         {
-            ViewData["FkIcpId"] = new SelectList(_context.TConceptoPago, "PkIcpId", "PkIcpId");
+            ViewData["FkIcpId"] = new SelectList(_context.TConceptoPago, "PkIcpId", "VcpDescripcion");
             ViewData["FkIuDni"] = new SelectList(_context.TUsuario, "PkIuDni", "PkIuDni");
             return View();
         }
+
+        /*
+        public async Task<IActionResult> Create(int? id)
+        {
+            ViewData["FkIuDni"] = new SelectList(_context.TUsuario, "VuNombre", "VuApaterno", "VuAmaterno");
+            return View();
+        }
+        */
 
         // POST: TPagoes/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        [ValidateAntiForgeryToken]    
         public async Task<IActionResult> Create([Bind("PkIpId,VpValor,VpFecha,VpMes,VpAño,VpPdf,FkIuDni,FkIcpId")] TPago tPago)
         {
             if (ModelState.IsValid)
@@ -84,6 +92,7 @@ namespace SGIAMT.Controllers
             {
                 return NotFound();
             }
+
             ViewData["FkIcpId"] = new SelectList(_context.TConceptoPago, "PkIcpId", "PkIcpId", tPago.FkIcpId);
             ViewData["FkIuDni"] = new SelectList(_context.TUsuario, "PkIuDni", "PkIuDni", tPago.FkIuDni);
             return View(tPago);
