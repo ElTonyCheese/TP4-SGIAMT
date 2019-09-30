@@ -87,7 +87,7 @@ namespace SGIAMT.Models
         [DisplayName("Categoria")]
         public int PkIcId { get; set; }
 
-        [DisplayName("distrito")]
+        [DisplayName("Distrito")]
         public int PkIdiCod { get; set; }
 
 

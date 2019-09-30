@@ -10,7 +10,14 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
 }
 article,
 aside,
@@ -102,6 +109,136 @@ hr {
   box-sizing: content-box;
   height: 0;
 }
+
+
+.modal-nav-content {
+    width: 100%;
+    height: auto;
+    .modal-nav-body
+
+{
+    margin-top: 100px;
+    ul
+
+{
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    li
+
+{
+    text-align: center;
+    font-size: 130%;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+}
+}
+}
+
+body {
+    margin-top: 70px;
+}
+
+
+@media (min-width: 768px) {
+    body {
+        margin-top: 130px;
+    }
+
+}
+
+
+/* .modal-fullscreen */
+
+.modal-fullscreen {
+    background: transparent;
+    .modal-body
+
+{
+    background-color: blue;
+    padding: 0;
+    ul
+
+{
+    list-style: none;
+}
+
+.menu-one {
+    padding-top: 15px;
+    li >a
+
+{
+    color: white;
+}
+
+}
+
+.menu-two {
+    padding-top: 15px;
+    background-color: white;
+}
+
+}
+}
+
+.modal-fullscreen .modal-content {
+    background: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.modal-backdrop.modal-backdrop-fullscreen {
+    background: #ffffff;
+}
+
+    .modal-backdrop.modal-backdrop-fullscreen.in {
+        opacity: .97;
+        filter: alpha(opacity=97);
+    }
+
+/* .modal-fullscreen size: we use Bootstrap media query breakpoints */
+
+.modal-fullscreen .modal-dialog {
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .modal-fullscreen .modal-dialog {
+        //width: 750px;
+    }
+}
+
+/*aplicando filtro para el texto centrado*/
+.navbar .main_menu {
+    text-align: center;
+    position: relative;
+    position: absolute;
+    left: 40%;
+    color: #212529;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.navbar  .main_menu:hover {
+    text-align: center;
+    position: relative;
+    position: absolute;
+    left: 40%;
+    color: #212529;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+}
+
 pre {
   overflow: auto;
 }
@@ -3696,28 +3833,7 @@ tbody.collapse.in {
   left: auto;
 }
 .dropup .caret,
-.navbar-fixed-bottom .dropdown .caret {
-  content: "";
-  border-top: 0;
-  border-bottom: 4px dashed;
-  border-bottom: 4px solid \9;
-}
-.dropup .dropdown-menu,
-.navbar-fixed-bottom .dropdown .dropdown-menu {
-  top: auto;
-  bottom: 100%;
-  margin-bottom: 2px;
-}
-@media (min-width: 768px) {
-  .navbar-right .dropdown-menu {
-    right: 0;
-    left: auto;
-  }
-  .navbar-right .dropdown-menu-left {
-    right: auto;
-    left: 0;
-  }
-}
+
 .btn-group,
 .btn-group-vertical {
   position: relative;

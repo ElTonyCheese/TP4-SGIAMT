@@ -4,49 +4,101 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - SGIAMT</title>
-    <style>
-        .ejemplo {
-            background-color: #FF0000;
-            border-color: black;
-        }
-    </style>
-    <link href="~/css/menu principal.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
     </environment>
     <environment exclude="Development">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
-        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
+              crossorigin="anonymous"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" />
     </environment>
+    <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-    <link rel=" stylesheet" href="~/css/menu principal.css" />
-    <nav class=" navbar navbar-inverse  navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header" style="width:100%">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-               
-                    <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">SGIAMT</a>
-                    <a id="inicio" asp-area="" asp-controller="EUsuarios" asp-action="Create" class="navbar-brand">Registrar Alumno</a>
-               
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/LOGO_opt.png" />
+                </a>
             </div>
-            @*<div class="navbar-collapse collapse">
-                    <ul class="nav navbar-right">
-                        <a  asp-area="" asp-controller="EUsuarios" asp-action="Create" class="barracolor">Registrar Alumno</a>
-                    </ul>
-                </div>*@
+            <div class="collapse navbar-collapse" id="navbar-collapse-main">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="active" asp-controller="EUsuarios" asp-action="Create">Registrar Alumno</a></li>
+                    <li><a  asp-controller="#" asp-action="#">Registrar Pago</a></li>
+                    <li><a  asp-controller="#" asp-action="#">Gestionar Progreso</a></li>
+                    <li><a  asp-controller="#" asp-action="#">Administrar Asistencia</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+
+    
+
+
+
+
+    @*
+        <nav class=" navbar navbar-expand-lg  navbar-fixed-top">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/images/image008.png" /></a>
+            <a class="navbar-brand1" asp-area="" asp-controller="Home" asp-action="Index"><h2>TUSUY PERU</h2></a>
+            <div class="container">
+
+
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="title"><h1>SGIAMT</h1></a>
+                <a id="inicio" asp-area="" asp-controller="EUsuarios" asp-action="Create" class="navbar-header">Registrar Alumno</a>
+
+            </div>
+        </nav>
+    *@
+
+    @*
+
+        ----------------Segunda navbar -----------
+        <nav class=" navbar navbar-inverse  navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header" style="width:100%">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">SGIAMT</a>
+                    <a id="inicio" asp-area="" asp-controller="EUsuarios" asp-action="Create" class="navbar-brand">Registrar Alumno</a>
+
+                </div>
+            </div>
+        </nav>
+    *@
+
+
+
+
+
+
+
+
+
+    @*<div class="navbar-collapse collapse">
+            <ul class="nav navbar-right">
+                <a  asp-area="" asp-controller="EUsuarios" asp-action="Create" class="barracolor">Registrar Alumno</a>
+            </ul>
+        </div>*@
+
     @* para iniciar secion *@
-        @*<ul class="nav justify-content-center">
+    @*<ul class="nav justify-content-center">
             <li class="nav-item">
                 <a class="nav-link active" href="#">Active</a>
             </li>
@@ -63,14 +115,11 @@
     @* finalizar iniciar sesion *@
 
 
-    <partial name="_CookieConsentPartial" />
-
-    <div class="container body-content" >
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2019 - SGIAMT</p>
-        </footer>
+    <div class="container">
+        <partial name="_CookieConsentPartial" />
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
     </div>
 
     <environment include="Development">
