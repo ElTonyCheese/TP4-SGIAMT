@@ -28,7 +28,11 @@ namespace SGIAMT.Models
             if (!optionsBuilder.IsConfigured)
             {
 //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+<<<<<<< HEAD
                 optionsBuilder.UseSqlServer("Server=DESKTOP-HNNEPQ0\\ALONSO_PC;Database=BD_SGIAMT;Trusted_Connection=True;");
+=======
+                optionsBuilder.UseSqlServer("Server=LACING202A-13;Database=BD_SGIAMT;Trusted_Connection=True;");
+>>>>>>> 1688baf951bbb1084026569e1b51df5d475828f0
             }
         }
 

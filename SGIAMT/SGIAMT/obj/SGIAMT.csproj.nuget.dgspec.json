@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\A SU SERVICIO\\Desktop\\repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\SGIAMT.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\A SU SERVICIO\\Desktop\\repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
         "packagesPath": "C:\\Users\\A SU SERVICIO\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\A SU SERVICIO\\Desktop\\repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\obj\\",
+=======
+    "C:\\Users\\alumno.LABORATORIOS\\Desktop\\repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\SGIAMT.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alumno.LABORATORIOS\\Desktop\\repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\SGIAMT.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alumno.LABORATORIOS\\Desktop\\repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
+        "projectName": "SGIAMT",
+        "projectPath": "C:\\Users\\alumno.LABORATORIOS\\Desktop\\repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
+        "packagesPath": "C:\\Users\\alumno.LABORATORIOS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alumno.LABORATORIOS\\Desktop\\repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\obj\\",
+>>>>>>> 1688baf951bbb1084026569e1b51df5d475828f0
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -47,10 +47,14 @@ namespace SGIAMT.Models
         [DisplayName("Correo")]
         [DataType(DataType.EmailAddress)]
         [EmailAddress(ErrorMessage = "invalido correo ")]
+<<<<<<< HEAD
+=======
+        [StringLength(30, MinimumLength = 0, ErrorMessage = "Ingrese el Correo")]
+>>>>>>> 1688baf951bbb1084026569e1b51df5d475828f0
         public string VuCorreo { get; set; }
 
         [Required(ErrorMessage = "Campo Requerido")]
-        [DisplayName("Direccion")]
+      [DisplayName("Direccion")]
         [StringLength(30, MinimumLength = 0, ErrorMessage = "Ingrese el Direccion")]
         public string VuDireccion { get; set; }
 
@@ -66,6 +70,10 @@ namespace SGIAMT.Models
         [RegularExpression(@"^[a-zA-Z]+[ a-zA-Z-_]*$", ErrorMessage = "Solo letras")]
         public string VuSexo { get; set; }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1688baf951bbb1084026569e1b51df5d475828f0
         [Required(ErrorMessage = "Campo Requerido")]
         [DataType(DataType.Password)]
         [DisplayName("contraseña")]
