@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
+
 namespace SGIAMT.Models
 {
     public partial class EUsuario
@@ -14,7 +15,7 @@ namespace SGIAMT.Models
         {
             ENivelxTipoNivel = new HashSet<ENivelxTipoNivel>();
         }
-
+        [Required(ErrorMessage = "Campo Requerido")]
         [DisplayName("Dni")]
         [Range(10000000, 99999999, ErrorMessage = "el dni no tiene 8 caracteres ")]
         public int PkIuDni { get; set; }
@@ -30,13 +31,12 @@ namespace SGIAMT.Models
         [StringLength(30, MinimumLength = 0, ErrorMessage = "Ingrese el apellido paterno")]
         [RegularExpression(@"^[a-zA-Z]+[ a-zA-Z-_]*$", ErrorMessage = "Solo letras")]
         public string VuApaterno { get; set; }
-
+        
         [Required(ErrorMessage = "Campo Requerido")]
         [DisplayName("Apellido Materno")]
         [StringLength(30, MinimumLength = 0, ErrorMessage = "Ingrese el apellido materno")]
         [RegularExpression(@"^[a-zA-Z]+[ a-zA-Z-_]*$", ErrorMessage = "Solo letras")]
         public string VuAmaterno { get; set; }
-
 
         [Required(ErrorMessage = "Campo Requerido")]
         [DisplayName("Celular")]
@@ -45,7 +45,8 @@ namespace SGIAMT.Models
 
         [Required(ErrorMessage = "Campo Requerido")]
         [DisplayName("Correo")]
-        [StringLength(30, MinimumLength = 0, ErrorMessage = "Ingrese el Correo")]
+        [DataType(DataType.EmailAddress)]
+        [EmailAddress(ErrorMessage = "invalido correo ")]
         public string VuCorreo { get; set; }
 
         [Required(ErrorMessage = "Campo Requerido")]
@@ -53,12 +54,11 @@ namespace SGIAMT.Models
         [StringLength(30, MinimumLength = 0, ErrorMessage = "Ingrese el Direccion")]
         public string VuDireccion { get; set; }
 
+        [Required(ErrorMessage = "Campo Requerido")]
         [Display(Name = "Fecha de nacimiento")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:MM/dd/yyyy}")]
         public DateTime DuFechaNacimiento { get; set; }
-
-     
 
         [Required(ErrorMessage = "Campo Requerido")]
         [DisplayName("Sexo")]
@@ -66,13 +66,12 @@ namespace SGIAMT.Models
         [RegularExpression(@"^[a-zA-Z]+[ a-zA-Z-_]*$", ErrorMessage = "Solo letras")]
         public string VuSexo { get; set; }
 
-
-        [Required]
+        [Required(ErrorMessage = "Campo Requerido")]
         [DataType(DataType.Password)]
         [DisplayName("contraseña")]
         public string VuContraseña { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Campo Requerido")]
         [DisplayName("Estado")]
         public string VuEstado { get; set; }
 
@@ -82,18 +81,17 @@ namespace SGIAMT.Models
         public string VuHorario { get; set; }
 
         [DisplayName("Tipo de Usuario")]
-        public int PkItuTipoUsuario { get; set; }
+        public int FkItuTipoUsuario { get; set; }
 
         [DisplayName("Categoria")]
-        public int PkIcId { get; set; }
+        public int FkIcId { get; set; }
 
         [DisplayName("distrito")]
-        public int PkIdiCod { get; set; }
+        public int FkIdiCod { get; set; }
 
-
-        public ECategoría PkIc { get; set; }
-        public EDistrito PkIdiCodNavigation { get; set; }
-        public ETipoUsuario PkItuTipoUsuarioNavigation { get; set; }
+        public ECategoría FkIc { get; set; }
+        public EDistrito FkIdiCodNavigation { get; set; }
+        public ETipoUsuario FkItuTipoUsuarioNavigation { get; set; }
         public ICollection<ENivelxTipoNivel> ENivelxTipoNivel { get; set; }
     }
 }

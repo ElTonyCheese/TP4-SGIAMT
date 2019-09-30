@@ -28,7 +28,7 @@ namespace SGIAMT.Models
             if (!optionsBuilder.IsConfigured)
             {
 //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=LACING202A-17;Database=BD_SGIAMT;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-HNNEPQ0\\ALONSO_PC;Database=BD_SGIAMT;Trusted_Connection=True;");
             }
         }
 
@@ -95,29 +95,29 @@ namespace SGIAMT.Models
                     .HasColumnName("PK_INTN_Cod")
                     .ValueGeneratedNever();
 
+                entity.Property(e => e.FkInCod).HasColumnName("FK_IN_Cod");
+
+                entity.Property(e => e.FkItnCod).HasColumnName("FK_ITN_Cod");
+
+                entity.Property(e => e.FkIuDni).HasColumnName("FK_IU_Dni");
+
                 entity.Property(e => e.NroAlumno).HasColumnName("Nro_Alumno");
 
-                entity.Property(e => e.PkInCod).HasColumnName("PK_IN_Cod");
-
-                entity.Property(e => e.PkItnCod).HasColumnName("PK_ITN_Cod");
-
-                entity.Property(e => e.PkIuDni).HasColumnName("PK_IU_Dni");
-
-                entity.HasOne(d => d.PkInCodNavigation)
+                entity.HasOne(d => d.FkInCodNavigation)
                     .WithMany(p => p.ENivelxTipoNivel)
-                    .HasForeignKey(d => d.PkInCod)
+                    .HasForeignKey(d => d.FkInCod)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_T_E_NivelxTipoNivel8");
 
-                entity.HasOne(d => d.PkItnCodNavigation)
+                entity.HasOne(d => d.FkItnCodNavigation)
                     .WithMany(p => p.ENivelxTipoNivel)
-                    .HasForeignKey(d => d.PkItnCod)
+                    .HasForeignKey(d => d.FkItnCod)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_T_E_NivelxTipoNivel7");
 
-                entity.HasOne(d => d.PkIuDniNavigation)
+                entity.HasOne(d => d.FkIuDniNavigation)
                     .WithMany(p => p.ENivelxTipoNivel)
-                    .HasForeignKey(d => d.PkIuDni)
+                    .HasForeignKey(d => d.FkIuDni)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_E_NivelxTipoNivel_E_Usuario");
             });
@@ -170,11 +170,11 @@ namespace SGIAMT.Models
                     .HasColumnName("DU_FechaNacimiento")
                     .HasColumnType("date");
 
-                entity.Property(e => e.PkIcId).HasColumnName("PK_IC_Id");
+                entity.Property(e => e.FkIcId).HasColumnName("FK_IC_Id");
 
-                entity.Property(e => e.PkIdiCod).HasColumnName("PK_IDI_Cod");
+                entity.Property(e => e.FkIdiCod).HasColumnName("FK_IDI_Cod");
 
-                entity.Property(e => e.PkItuTipoUsuario).HasColumnName("PK_ITU_TipoUsuario");
+                entity.Property(e => e.FkItuTipoUsuario).HasColumnName("FK_ITU_TipoUsuario");
 
                 entity.Property(e => e.VuAmaterno)
                     .IsRequired()
@@ -232,21 +232,21 @@ namespace SGIAMT.Models
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.HasOne(d => d.PkIc)
+                entity.HasOne(d => d.FkIc)
                     .WithMany(p => p.EUsuario)
-                    .HasForeignKey(d => d.PkIcId)
+                    .HasForeignKey(d => d.FkIcId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_T_E_Usuario2");
 
-                entity.HasOne(d => d.PkIdiCodNavigation)
+                entity.HasOne(d => d.FkIdiCodNavigation)
                     .WithMany(p => p.EUsuario)
-                    .HasForeignKey(d => d.PkIdiCod)
+                    .HasForeignKey(d => d.FkIdiCod)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_E_Usuario_E_Distrito");
 
-                entity.HasOne(d => d.PkItuTipoUsuarioNavigation)
+                entity.HasOne(d => d.FkItuTipoUsuarioNavigation)
                     .WithMany(p => p.EUsuario)
-                    .HasForeignKey(d => d.PkItuTipoUsuario)
+                    .HasForeignKey(d => d.FkItuTipoUsuario)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_T_E_Usuario0");
             });

@@ -8,9 +8,6 @@ startup:
 -using SGIAMT.Models;
 -using Microsoft.EntityFrameworkCore;
 
-github
-id     : AlonsoMontalvo
-contra : Alons017
 
 
 consola:

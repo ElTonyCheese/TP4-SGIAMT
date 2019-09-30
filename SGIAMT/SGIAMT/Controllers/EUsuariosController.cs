@@ -60,7 +60,7 @@ namespace SGIAMT.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PkIuDni,VuNombre,VuApaterno,VuAmaterno,VuCelular,VuCorreo,VuDireccion,DuFechaNacimiento,VuSexo,VuContraseña,VuEstado,VuHorario,PkItuTipoUsuario,PkIcId,PkIdiCod")] EUsuario eUsuario)
+        public async Task<IActionResult> Create([Bind("PkIuDni,VuNombre,VuApaterno,VuAmaterno,VuCelular,VuCorreo,VuDireccion,DuFechaNacimiento,VuSexo,VuContraseña,VuEstado,VuHorario,FkItuTipoUsuario,FkIcId,FkIdiCod")] EUsuario eUsuario)
         {
             bool Isdniexist = _context.EUsuario.Any
               (x => x.PkIuDni == eUsuario.PkIuDni);
@@ -75,9 +75,9 @@ namespace SGIAMT.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Create", "ENivelxTipoNivels");
             }
-            ViewData["PkIcId"] = new SelectList(_context.ECategoría, "PkIcId", "VcNombreCat", eUsuario.PkIcId);
-            ViewData["PkIdiCod"] = new SelectList(_context.EDistrito, "PkIdiCod", "VdiNombreDis", eUsuario.PkIdiCod);
-            ViewData["PkItuTipoUsuario"] = new SelectList(_context.ETipoUsuario, "PkItuTipoUsuario", "VtuNombreTipoUsuario", eUsuario.PkItuTipoUsuario);
+            ViewData["PkIcId"] = new SelectList(_context.ECategoría, "PkIcId", "VcNombreCat", eUsuario.FkIcId);
+            ViewData["PkIdiCod"] = new SelectList(_context.EDistrito, "PkIdiCod", "VdiNombreDis", eUsuario.FkIdiCod);
+            ViewData["PkItuTipoUsuario"] = new SelectList(_context.ETipoUsuario, "PkItuTipoUsuario", "VtuNombreTipoUsuario", eUsuario.FkItuTipoUsuario);
             return View(eUsuario);
         }
 

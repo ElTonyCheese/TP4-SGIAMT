@@ -6,22 +6,24 @@ namespace SGIAMT.Models
 {
     public partial class ENivelxTipoNivel
     {
-        [DisplayName("N° de alumno")]
-        public int NroAlumno { get; set; }
-
-        [DisplayName("Tipo de nivel")]
-        public int PkItnCod { get; set; }
-        [DisplayName("nivel")]
-        public int PkInCod { get; set; }
-
+       
         [DisplayName("numero de nivel")]
         public int PkIntnCod { get; set; }
 
-        [DisplayName("Nombre del Alumno")]
-        public int PkIuDni { get; set; }
+        [DisplayName("Tipo de nivel")]
+        public int FkInCod { get; set; }
 
-        public ENivel PkInCodNavigation { get; set; }
-        public ETipoNivel PkItnCodNavigation { get; set; }
-        public EUsuario PkIuDniNavigation { get; set; }
+        [DisplayName("nivel")]
+        public int FkItnCod { get; set; }
+
+        [DisplayName("N° de alumno")]
+        public int NroAlumno { get; set; }
+
+        [DisplayName("Nombre del Alumno")]
+        public int FkIuDni { get; set; }
+
+        public ENivel FkInCodNavigation { get; set; }
+        public ETipoNivel FkItnCodNavigation { get; set; }
+        public EUsuario FkIuDniNavigation { get; set; }
     }
 }

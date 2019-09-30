@@ -60,7 +60,7 @@ namespace SGIAMT.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("NroAlumno,PkItnCod,PkInCod,PkIntnCod,PkIuDni")] ENivelxTipoNivel eNivelxTipoNivel)
+        public async Task<IActionResult> Create([Bind("PkIntnCod,FkInCod,FkItnCod,NroAlumno,FkIuDni")] ENivelxTipoNivel eNivelxTipoNivel)
         {
             if (ModelState.IsValid)
             {
@@ -68,9 +68,9 @@ namespace SGIAMT.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Index", "Home");
             }
-            ViewData["PkInCod"] = new SelectList(_context.ENivel, "PkInCod", "VnNombreNivel", eNivelxTipoNivel.PkInCod);
-            ViewData["PkItnCod"] = new SelectList(_context.ETipoNivel, "PkItnCod", "ItnNombreTipoNivel", eNivelxTipoNivel.PkItnCod);
-            ViewData["PkIuDni"] = new SelectList(_context.EUsuario, "PkIuDni", "VuNombre", eNivelxTipoNivel.PkIuDni);
+            ViewData["PkInCod"] = new SelectList(_context.ENivel, "PkInCod", "VnNombreNivel", eNivelxTipoNivel.FkInCod);
+            ViewData["PkItnCod"] = new SelectList(_context.ETipoNivel, "PkItnCod", "ItnNombreTipoNivel", eNivelxTipoNivel.FkItnCod);
+            ViewData["PkIuDni"] = new SelectList(_context.EUsuario, "PkIuDni", "VuNombre", eNivelxTipoNivel.FkIuDni);
             return View(eNivelxTipoNivel);
         }
 
