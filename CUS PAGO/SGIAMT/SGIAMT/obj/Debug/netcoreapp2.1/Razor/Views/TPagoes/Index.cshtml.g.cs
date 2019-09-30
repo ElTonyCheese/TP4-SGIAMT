@@ -163,7 +163,7 @@ using SGIAMT.Models;
             WriteLiteral("\r\n            </td>\r\n            \r\n        <td>\r\n            ");
             EndContext();
             BeginContext(2144, 59, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "68a2ac82759b4ee3ae3e72a2459034eb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dcf7022935f84d1fb48486b59b459760", async() => {
                 BeginContext(2193, 6, true);
                 WriteLiteral("Editar");
                 EndContext();
@@ -198,7 +198,7 @@ using SGIAMT.Models;
             WriteLiteral(" |\r\n            ");
             EndContext();
             BeginContext(2219, 59, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c735b34a5aeb43d88e4171479ea04450", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f8d7ff07ee2e409eb9f2619bb59f6088", async() => {
                 BeginContext(2271, 3, true);
                 WriteLiteral("Ver");
                 EndContext();
@@ -233,7 +233,7 @@ using SGIAMT.Models;
             WriteLiteral(" |\r\n            ");
             EndContext();
             BeginContext(2294, 63, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dbc2591eb4b548eb8e6bbcfdd1dcdf17", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "23e4e11d45d74a128ea21cb10e7d1695", async() => {
                 BeginContext(2345, 8, true);
                 WriteLiteral("Eliminar");
                 EndContext();

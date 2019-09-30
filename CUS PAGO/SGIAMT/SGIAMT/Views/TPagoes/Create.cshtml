@@ -8,14 +8,12 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form>
-        </form>
         <form asp-action="Create">
-            @*<div asp-validation-summary="ModelOnly" class="text-danger"></div>*@
             <div class="form-group">
                 <label asp-for="FkIuDni" class="control-label">Dni de Alumno</label>
-                <select asp-for="FkIuDni" class="form-control" asp-items="ViewBag.FkIuDni"></select>
+                <select asp-for="FkIuDni" class="form-control" asp-items="ViewBag.FkIuDni" asp-action="Create"></select>
             </div>
+            @*
             <div class="form-group">
                 <label>Nombre: </label>
                 <label asp-for="FkIuDni"></label>
@@ -28,6 +26,7 @@
                 <label>Apellido Materno: </label>
                 <label asp-for="FkIuDni"></label>
             </div>
+            *@
             <div class="form-group">
                 <label asp-for="VpFecha" class="control-label">Fecha</label>
                 <input type="date" asp-for="VpFecha" class="form-control" />
@@ -56,13 +55,6 @@
                 <input asp-for="VpAño" class="form-control" value="2019" />
                 <span asp-validation-for="VpAño" class="text-danger"></span>
             </div>
-            @*
-                <div class="form-group">
-                    <label asp-for="VpPdf" class="control-label"></label>
-                    <input asp-for="VpPdf" class="form-control" />
-                    <span asp-validation-for="VpPdf" class="text-danger"></span>
-                </div>
-            *@
             <div class="form-group">
                 <label asp-for="FkIcpId" class="control-label">Concepto</label>
                 <select asp-for="FkIcpId" class="form-control" asp-items="ViewBag.FkIcpId"></select>
@@ -76,6 +68,7 @@
 <div>
     <a asp-action="Index">Lista de Registros de Pago</a>
 </div>
+
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
