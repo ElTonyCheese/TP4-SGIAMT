@@ -36,7 +36,15 @@ namespace SGIAMT
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
+<<<<<<< HEAD
             var connection = @"Server=HACKEDU;Database=BD_SGIAMT;Trusted_Connection=True;ConnectRetryCount=0";
+=======
+<<<<<<< HEAD
+            var connection = @"Server=DESKTOP-HNNEPQ0\ALONSO_PC;Database=BD_SGIAMT;Trusted_Connection=True;ConnectRetryCount=0";
+=======
+            var connection = @"Server=LACING202A-13;Database=BD_SGIAMT;Trusted_Connection=True;ConnectRetryCount=0";
+>>>>>>> 1688baf951bbb1084026569e1b51df5d475828f0
+>>>>>>> 4eac16c68c5fa464b7d147ff8e7e24be23256a29
             services.AddDbContext<BD_SGIAMTContext>(options => options.UseSqlServer(connection));
 
         }
@@ -62,7 +70,7 @@ namespace SGIAMT
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=ENivelxTipoNivels}/{action=Create}/{id?}");
             });
         }
     }

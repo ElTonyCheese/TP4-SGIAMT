@@ -19,11 +19,11 @@ namespace SGIAMT.Controllers
         }
 
         // GET: ENivelxTipoNivels
-        //public async Task<IActionResult> Index()
-        //{
-        //    var bD_SGIAMTContext = _context.ENivelxTipoNivel.Include(e => e.PkInCodNavigation).Include(e => e.PkItnCodNavigation).Include(e => e.PkIuDniNavigation);
-        //    return View(await bD_SGIAMTContext.ToListAsync());
-        //}
+        public async Task<IActionResult> Index()
+        {
+            var bD_SGIAMTContext = _context.ENivelxTipoNivel.Include(e => e.PkInCodNavigation).Include(e => e.PkItnCodNavigation).Include(e => e.PkIuDniNavigation);
+            return View(await bD_SGIAMTContext.ToListAsync());
+        }
 
         //// GET: ENivelxTipoNivels/Details/5
         //public async Task<IActionResult> Details(int? id)
@@ -60,7 +60,7 @@ namespace SGIAMT.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("NroAlumno,PkItnCod,PkInCod,PkIntnCod,PkIuDni")] ENivelxTipoNivel eNivelxTipoNivel)
+        public async Task<IActionResult> Create([Bind("PkIntnCod,FkInCod,FkItnCod,NroAlumno,FkIuDni")] ENivelxTipoNivel eNivelxTipoNivel)
         {
             if (ModelState.IsValid)
             {
@@ -68,9 +68,16 @@ namespace SGIAMT.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Index", "Home");
             }
+<<<<<<< HEAD
+            ViewData["PkInCod"] = new SelectList(_context.ENivel, "PkInCod", "VnNombreNivel", eNivelxTipoNivel.FkInCod);
+            ViewData["PkItnCod"] = new SelectList(_context.ETipoNivel, "PkItnCod", "ItnNombreTipoNivel", eNivelxTipoNivel.FkItnCod);
+            ViewData["PkIuDni"] = new SelectList(_context.EUsuario, "PkIuDni", "VuNombre", eNivelxTipoNivel.FkIuDni);
+=======
+           
             ViewData["PkInCod"] = new SelectList(_context.ENivel, "PkInCod", "VnNombreNivel", eNivelxTipoNivel.PkInCod);
             ViewData["PkItnCod"] = new SelectList(_context.ETipoNivel, "PkItnCod", "ItnNombreTipoNivel", eNivelxTipoNivel.PkItnCod);
             ViewData["PkIuDni"] = new SelectList(_context.EUsuario, "PkIuDni", "VuNombre", eNivelxTipoNivel.PkIuDni);
+>>>>>>> 1688baf951bbb1084026569e1b51df5d475828f0
             return View(eNivelxTipoNivel);
         }
 

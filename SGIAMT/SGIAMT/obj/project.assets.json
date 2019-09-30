@@ -11830,24 +11830,51 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\EDUARDO\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\A SU SERVICIO\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+>>>>>>> 4eac16c68c5fa464b7d147ff8e7e24be23256a29
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\EDUARDO\\Desktop\\Report\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
       "projectName": "SGIAMT",
       "projectPath": "C:\\Users\\EDUARDO\\Desktop\\Report\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
       "packagesPath": "C:\\Users\\EDUARDO\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\EDUARDO\\Desktop\\Report\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\obj\\",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\A SU SERVICIO\\Desktop\\repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
+      "projectName": "SGIAMT",
+      "projectPath": "C:\\Users\\A SU SERVICIO\\Desktop\\repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
+      "packagesPath": "C:\\Users\\A SU SERVICIO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\A SU SERVICIO\\Desktop\\repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\alumno.LABORATORIOS\\Desktop\\repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
+      "projectName": "SGIAMT",
+      "projectPath": "C:\\Users\\alumno.LABORATORIOS\\Desktop\\repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\SGIAMT.csproj",
+      "packagesPath": "C:\\Users\\alumno.LABORATORIOS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alumno.LABORATORIOS\\Desktop\\repor\\TP4-SGIAMT\\SGIAMT\\SGIAMT\\obj\\",
+>>>>>>> 1688baf951bbb1084026569e1b51df5d475828f0
+>>>>>>> 4eac16c68c5fa464b7d147ff8e7e24be23256a29
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\EDUARDO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+        "C:\\Users\\A SU SERVICIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+>>>>>>> 4eac16c68c5fa464b7d147ff8e7e24be23256a29
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -11882,7 +11909,6 @@
             "version": "[2.2.0, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

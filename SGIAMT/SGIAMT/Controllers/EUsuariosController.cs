@@ -47,8 +47,9 @@ namespace SGIAMT.Controllers
         //}
 
         // GET: EUsuarios/Create
-        public IActionResult Create()
+        public IActionResult Create(int id)
         {
+            
             ViewData["PkIcId"] = new SelectList(_context.ECategoría, "PkIcId", "VcNombreCat");
             ViewData["PkIdiCod"] = new SelectList(_context.EDistrito, "PkIdiCod", "VdiNombreDis");
             ViewData["PkItuTipoUsuario"] = new SelectList(_context.ETipoUsuario, "PkItuTipoUsuario", "VtuNombreTipoUsuario");
@@ -60,8 +61,9 @@ namespace SGIAMT.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PkIuDni,VuNombre,VuApaterno,VuAmaterno,VuCelular,VuCorreo,VuDireccion,DuFechaNacimiento,VuSexo,VuContraseña,VuEstado,VuHorario,PkItuTipoUsuario,PkIcId,PkIdiCod")] EUsuario eUsuario)
+        public async Task<IActionResult> Create([Bind("PkIuDni,VuNombre,VuApaterno,VuAmaterno,VuCelular,VuCorreo,VuDireccion,DuFechaNacimiento,VuSexo,VuContraseña,VuEstado,VuHorario,FkItuTipoUsuario,FkIcId,FkIdiCod")] EUsuario eUsuario)
         {
+            //int id;
             bool Isdniexist = _context.EUsuario.Any
               (x => x.PkIuDni == eUsuario.PkIuDni);
             if (Isdniexist == true)
@@ -71,13 +73,22 @@ namespace SGIAMT.Controllers
 
             if (ModelState.IsValid)
             {
+             
                 _context.Add(eUsuario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Create", "ENivelxTipoNivels");
+               
             }
+<<<<<<< HEAD
+            ViewData["PkIcId"] = new SelectList(_context.ECategoría, "PkIcId", "VcNombreCat", eUsuario.FkIcId);
+            ViewData["PkIdiCod"] = new SelectList(_context.EDistrito, "PkIdiCod", "VdiNombreDis", eUsuario.FkIdiCod);
+            ViewData["PkItuTipoUsuario"] = new SelectList(_context.ETipoUsuario, "PkItuTipoUsuario", "VtuNombreTipoUsuario", eUsuario.FkItuTipoUsuario);
+=======
+            //var tdni = await _context.ENivelxTipoNivel.Include(t => t.PkIuDni).SingleOrDefaultAsync(m => m.PkItnCod == id);
             ViewData["PkIcId"] = new SelectList(_context.ECategoría, "PkIcId", "VcNombreCat", eUsuario.PkIcId);
             ViewData["PkIdiCod"] = new SelectList(_context.EDistrito, "PkIdiCod", "VdiNombreDis", eUsuario.PkIdiCod);
             ViewData["PkItuTipoUsuario"] = new SelectList(_context.ETipoUsuario, "PkItuTipoUsuario", "VtuNombreTipoUsuario", eUsuario.PkItuTipoUsuario);
+>>>>>>> 1688baf951bbb1084026569e1b51df5d475828f0
             return View(eUsuario);
         }
 
