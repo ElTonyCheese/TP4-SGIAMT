@@ -70,3 +70,5 @@ select * from E_TipoNivel
 
 select * from E_Usuario
 select * from E_NivelxTipoNivel
+
+
