@@ -14,18 +14,18 @@
                 <select asp-for="FkIuDni" class="form-control" asp-items="ViewBag.FkIuDni" asp-action="Create"></select>
             </div>
             @*
-            <div class="form-group">
-                <label>Nombre: </label>
-                <label asp-for="FkIuDni"></label>
-            </div>
-            <div class="form-group">
-                <label>Apellido Paterno: </label>
-                <label asp-for="FkIuDni"></label>
-            </div>
-            <div class="form-group">
-                <label>Apellido Materno: </label>
-                <label asp-for="FkIuDni"></label>
-            </div>
+        <div class="form-group">
+            <label>Nombre: </label>
+            <label asp-for="FkIuDni"></label>
+        </div>
+        <div class="form-group">
+            <label>Apellido Paterno: </label>
+            <label asp-for="FkIuDni"></label>
+        </div>
+        <div class="form-group">
+            <label>Apellido Materno: </label>
+            <label asp-for="FkIuDni"></label>
+        </div>
             *@
             <div class="form-group">
                 <label asp-for="VpFecha" class="control-label">Fecha</label>
@@ -33,8 +33,17 @@
                 <span asp-validation-for="VpFecha" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="FkIcpId" class="control-label">Concepto</label>
+                <select asp-for="FkIcpId" class="form-control" asp-items="ViewBag.FkIcpId" id="CUS_RegistroPago_Select_cp" onchange="seleccion()"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="VpAño" class="control-label">Año</label>
+                <input asp-for="VpAño" class="form-control" value="2019" />
+                <span asp-validation-for="VpAño" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="VpMes" class="control-label">Mes</label>
-                <select asp-for="VpMes" class="form-control">
+                <select id="CUS_RegistroPago_Select_mes" asp-for="VpMes" class="form-control">
                     <option value="Enero">Enero</option>
                     <option value="Febrero">Febrero</option>
                     <option value="Marzo">Marzo</option>
@@ -51,15 +60,6 @@
                 <span asp-validation-for="VpMes" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="VpAño" class="control-label">Año</label>
-                <input asp-for="VpAño" class="form-control" value="2019" />
-                <span asp-validation-for="VpAño" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="FkIcpId" class="control-label">Concepto</label>
-                <select asp-for="FkIcpId" class="form-control" asp-items="ViewBag.FkIcpId"></select>
-            </div>
-            <div class="form-group">
                 <input type="submit" value="Registrar" class="btn btn-default" />
             </div>
         </form>
@@ -68,6 +68,20 @@
 <div>
     <a asp-action="Index">Lista de Registros de Pago</a>
 </div>
+
+<script>
+    document.getElementById("CUS_RegistroPago_Select_mes").disabled = true;
+    function seleccion() {
+        if (document.getElementById("CUS_RegistroPago_Select_cp").value == 2)
+        {
+            document.getElementById("CUS_RegistroPago_Select_mes").disabled = false;
+        }
+        else
+        {
+            document.getElementById("CUS_RegistroPago_Select_mes").disabled = true;
+        }
+    }
+</script>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
