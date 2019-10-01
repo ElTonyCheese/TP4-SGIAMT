@@ -35,7 +35,7 @@ namespace SGIAMT
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            var connection = @"Server=DESKTOP-HNNEPQ0\ALONSO_PC;Database=BD_SGIAMT;Trusted_Connection=True;ConnectRetryCount=0";
+            var connection = @"Server=ADMINISTRADOR\ALONSO;Database=BD_SGIAMTvsRegistrarAlumno;Trusted_Connection=True;ConnectRetryCount=0";
             services.AddDbContext<BD_SGIAMTContext>(options => options.UseSqlServer(connection));
         }
 
@@ -60,7 +60,7 @@ namespace SGIAMT
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=TNivelxTipoNivels}/{action=Create}/{id?}");
+                    template: "{controller=EUsuarios}/{action=Create}/{id?}");
             });
         }
     }

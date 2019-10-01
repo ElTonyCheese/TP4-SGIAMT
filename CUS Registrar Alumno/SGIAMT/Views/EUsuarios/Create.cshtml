@@ -165,7 +165,6 @@
             document.getElementById("result").innerHTML = "La fecha " + fecha + " es incorrecta";
         }
     }
-
     
 </script>
 <body>
@@ -173,7 +172,7 @@
         <div class="row ">
             <div class="col-10" style="width : 30% ; float :left">
                 <h2 style="color:white">REGISTRAR ALUMNO</h2>
-                <form asp-action="Create">
+                <form asp-action="Create" >
                     <p style="color:white"> ¡Completar la inscipción a la mejor academia de marinera!</p>
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="form-group">
@@ -228,10 +227,10 @@
                     </div>
                     <div class="form-group">
                         <label asp-for="VuSexo" class="control-label"></label>
-                        <select class="form-control" id="VuSexo" name="VuSexo">
-                            <option>seleccionar sexo</option>
-                            <option>masculino </option>
-                            <option>femenino</option>
+                        <select class="form-control" id="VuSexo" name="VuSexo" >
+                            <option selected value="1">seleccionar sexo</option>
+                            <option >masculino </option>
+                            <option >femenino</option>
                         </select>
                         <span asp-validation-for="VuSexo" style="color:white"></span>
                     </div>
@@ -268,7 +267,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <input type="submit" value="Registrar" class="btn btn-success" />
+                        <input type="submit" value="Registrar" class="btn btn-success" onclick="elegir()" />
                         <a id="color" asp-controller="Home" asp-action="Index" class="btn btn-danger">atras</a>
                     </div>
 
@@ -285,7 +284,17 @@
         </div>
     </div>
 </body>
+    <script>
 
+        function elegir() {
+            if (VuSexo.selectedIndex = 1) { alert("llene sexo") }
+            else {
+                VuSexo.selectedIndex = 1;|
+                document.getElementById("VuSexo");
+            }
+        }
+
+    </script>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

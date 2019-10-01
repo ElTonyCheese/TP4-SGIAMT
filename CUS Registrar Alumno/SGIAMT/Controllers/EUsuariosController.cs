@@ -45,15 +45,19 @@ namespace SGIAMT.Controllers
             {
                 ModelState.AddModelError("PkIuDni", "ya existe este dni");
             }
-
+            if (eUsuario.VuSexo == "1")
+            {
+                ModelState.AddModelError("VuSexo", "completar sexo");
+            }
             if (ModelState.IsValid)
             {
 
                 _context.Add(eUsuario);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Create", "EUsuarios");
+                return RedirectToAction("Create", "TNivelxTipoNivels");
 
             }
+           
             ViewData["PkIcId"] = new SelectList(_context.TCategoría, "PkIcId", "VcNombreCat", eUsuario.FkIcId);
             ViewData["PkIdiCod"] = new SelectList(_context.TDistrito, "PkIdiCod", "VdiNombreDis", eUsuario.FkIdiCod);
             ViewData["PkItuTipoUsuario"] = new SelectList(_context.TTipoUsuario, "PkItuTipoUsuario", "VtuNombreTipoUsuario", eUsuario.FkItuTipoUsuario);

@@ -51,7 +51,7 @@ namespace SGIAMT.Controllers
         {
             ViewData["FkInCod"] = new SelectList(_context.TNivel, "PkInCod", "VnNombreNivel");
             ViewData["FkItnCod"] = new SelectList(_context.TTipoNivel, "PkItnCod", "ItnNombreTipoNivel");
-            ViewData["FkIuDni"] = new SelectList(_context.TUsuario, "PkIuDni", "VuAmaterno");
+            ViewData["FkIuDni"] = new SelectList(_context.TUsuario, "PkIuDni", "VuNombre");
             return View();
         }
 
@@ -70,7 +70,7 @@ namespace SGIAMT.Controllers
             }
             ViewData["FkInCod"] = new SelectList(_context.TNivel, "PkInCod", "VnNombreNivel", tNivelxTipoNivel.FkInCod);
             ViewData["FkItnCod"] = new SelectList(_context.TTipoNivel, "PkItnCod", "ItnNombreTipoNivel", tNivelxTipoNivel.FkItnCod);
-            ViewData["FkIuDni"] = new SelectList(_context.TUsuario, "PkIuDni", "VuAmaterno", tNivelxTipoNivel.FkIuDni);
+            ViewData["FkIuDni"] = new SelectList(_context.TUsuario, "PkIuDni", "VuNombre", tNivelxTipoNivel.FkIuDni);
             return View(tNivelxTipoNivel);
         }
 
@@ -89,7 +89,7 @@ namespace SGIAMT.Controllers
             }
             ViewData["FkInCod"] = new SelectList(_context.TNivel, "PkInCod", "VnNombreNivel", tNivelxTipoNivel.FkInCod);
             ViewData["FkItnCod"] = new SelectList(_context.TTipoNivel, "PkItnCod", "ItnNombreTipoNivel", tNivelxTipoNivel.FkItnCod);
-            ViewData["FkIuDni"] = new SelectList(_context.TUsuario, "PkIuDni", "VuAmaterno", tNivelxTipoNivel.FkIuDni);
+            ViewData["FkIuDni"] = new SelectList(_context.TUsuario, "PkIuDni", "VuNombre", tNivelxTipoNivel.FkIuDni);
             return View(tNivelxTipoNivel);
         }
 
@@ -127,7 +127,7 @@ namespace SGIAMT.Controllers
             }
             ViewData["FkInCod"] = new SelectList(_context.TNivel, "PkInCod", "VnNombreNivel", tNivelxTipoNivel.FkInCod);
             ViewData["FkItnCod"] = new SelectList(_context.TTipoNivel, "PkItnCod", "ItnNombreTipoNivel", tNivelxTipoNivel.FkItnCod);
-            ViewData["FkIuDni"] = new SelectList(_context.TUsuario, "PkIuDni", "VuAmaterno", tNivelxTipoNivel.FkIuDni);
+            ViewData["FkIuDni"] = new SelectList(_context.TUsuario, "PkIuDni", "VuNombre", tNivelxTipoNivel.FkIuDni);
             return View(tNivelxTipoNivel);
         }
 
