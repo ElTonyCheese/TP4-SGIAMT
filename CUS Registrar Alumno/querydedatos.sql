@@ -73,6 +73,8 @@ select * from T_Categoría
 select * from T_TipoUsuario
 select * from T_Usuario
 
+delete from T_NivelxTipoNivel
+
 delete from T_Usuario
 
 select * from T_NivelxTipoNivel
