@@ -14,17 +14,17 @@
 
 <script>
 
-    function calcular(nacio) {
-        fecha = new Date();
-        nacimiento = new Date(nacio);
-        edad = (fecha - nacimiento);
-        edad = Math.floor(edad / (1000 * 60 * 60 * 24 * 365));
+    //function calcular(nacio) {
+    //    fecha = new Date();
+    //    nacimiento = new Date(nacio);
+    //    edad = (fecha - nacimiento);
+    //    edad = Math.floor(edad / (1000 * 60 * 60 * 24 * 365));
 
-       document.getElementById("result").innerHTML = "Tienes " + edad + " años ";
+    //   document.getElementById("result").innerHTML = "Tienes " + edad + " años ";
 
-    }
+    //}
 </script>
-<h2 style="color:white"> Dni : @ViewBag.data  </h2>
+<h2 style="color:white">  Dni : @ViewBag.data  </h2>
 <body>
     <div class="container">
         <div class="row">
@@ -41,14 +41,14 @@
                         <label asp-for="FkIuDni" id="fechanaci" class="control-label" style="color:white;font-size:medium">fecha de nacimiento : @ViewBag.data2</label>
                         <select style="visibility:hidden" asp-for="FkIuDni" name="DuFechaNacimiento" id="DuFechaNacimiento" class="form-control" asp-items="ViewBag.PkIuDni"></select>
                         <span asp-validation-for="FkIuDni" style="color:white"></span>
-                        <span class="label">
-                        Edad : <span style="color:white ; font-size:small " id="result" value="result"></span>
-                        </span>
+                        @*<span class="label">
+                         <span style="color:white ; font-size:small " id="result" value="result"></span>
+                        </span>*@
                     </div>
                     <br />
                     <div class="form-group">
                         <label asp-for="FkInCod" class="control-label" style="color:white"></label>
-                        <select id="nivel" asp-for="FkInCod" class="form-control" asp-items="ViewBag.FkInCod" onchange="javascript:calcular('fechanaci')">
+                        <select id="nivel" asp-for="FkInCod" class="form-control" asp-items="ViewBag.FkInCod">
                             <option selected>seleccionar nivel</option>
                         </select>
                     </div>
