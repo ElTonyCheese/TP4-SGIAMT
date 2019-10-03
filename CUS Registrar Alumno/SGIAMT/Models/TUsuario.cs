@@ -59,7 +59,8 @@ namespace SGIAMT.Models
         [Required(ErrorMessage = "Campo Requerido")]
         [DisplayName("Fecha de nacimiento")]
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:MM/dd/yyyy}")]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
+        //[DisplayFormat(DataFormatString = "{0:MM/dd/yyyy}")]
         public DateTime DuFechaNacimiento { get; set; }
 
         [Required(ErrorMessage = "Campo Requerido")]

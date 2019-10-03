@@ -6,7 +6,6 @@ namespace SGIAMT.Models
 {
     public partial class TNivelxTipoNivel
     {
-        [DisplayName("numero de nivel")]
         public int PkIntnCod { get; set; }
 
         [DisplayName("nivel")]
@@ -15,7 +14,7 @@ namespace SGIAMT.Models
         [DisplayName("Tipo de nivel")]
         public int FkItnCod { get; set; }
 
-        [DisplayName("N° de alumno")]
+        [DisplayName("N° de alumnos")]
         public int NroAlumno { get; set; }
 
         [DisplayName("Nombre del Alumno")]

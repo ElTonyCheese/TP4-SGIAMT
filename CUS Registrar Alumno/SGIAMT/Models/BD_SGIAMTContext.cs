@@ -28,7 +28,7 @@ namespace SGIAMT.Models
             if (!optionsBuilder.IsConfigured)
             {
 //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=ADMINISTRADOR\\ALONSO;Database=BD_SGIAMTvsRegistrarAlumno;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-HNNEPQ0\\ALONSO_PC;Database=BD_SGIAMTvsRegistrarAlumno;Trusted_Connection=True;");
             }
         }
 
@@ -91,9 +91,7 @@ namespace SGIAMT.Models
 
                 entity.ToTable("T_NivelxTipoNivel");
 
-                entity.Property(e => e.PkIntnCod)
-                    .HasColumnName("PK_INTN_Cod")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.PkIntnCod).HasColumnName("PK_INTN_Cod");
 
                 entity.Property(e => e.FkInCod).HasColumnName("FK_IN_Cod");
 

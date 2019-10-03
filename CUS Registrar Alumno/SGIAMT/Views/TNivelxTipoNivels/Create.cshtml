@@ -4,41 +4,86 @@
     ViewData["Title"] = "Create";
 }
 
-<h2>Registrar Los Niveles del Alumno</h2>
+<h2 style="color:white">Registrar Los Niveles del Alumno</h2>
 <head>
     <title>Inscripcion de Alumno</title>
     <link rel="stylesheet" href="~/css/RegistroStyle.css" />
 </head>
 
 <hr />
+
+<script>
+
+    function calcular(nacio) {
+        fecha = new Date();
+        nacimiento = new Date(nacio);
+        edad = (fecha - nacimiento);
+        edad = Math.floor(edad / (1000 * 60 * 60 * 24 * 365));
+
+       document.getElementById("result").innerHTML = "Tienes " + edad + " años ";
+
+    }
+</script>
+<h2 style="color:white"> Dni : @ViewBag.data  </h2>
 <body>
     <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <form asp-action="Create">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <br />
                     <div class="form-group">
-                        <label asp-for="PkIntnCod" class="control-label"></label>
-                        <input asp-for="PkIntnCod" class="form-control" value="1" />
-                        <span asp-validation-for="PkIntnCod" class="text-danger"></span>
+                        <label asp-for="FkIuDni" class="control-label" style="color:white;font-size:medium">nombre del alumno : @ViewBag.data1</label>
+                        <select style="visibility:hidden" asp-for="FkIuDni" class="form-control" asp-items="ViewBag.FkIuDni"></select>
                     </div>
+
                     <div class="form-group">
-                        <label asp-for="FkInCod" class="control-label"></label>
-                        <select asp-for="FkInCod" class="form-control" asp-items="ViewBag.FkInCod"></select>
+                        <label asp-for="FkIuDni" id="fechanaci" class="control-label" style="color:white;font-size:medium">fecha de nacimiento : @ViewBag.data2</label>
+                        <select style="visibility:hidden" asp-for="FkIuDni" name="DuFechaNacimiento" id="DuFechaNacimiento" class="form-control" asp-items="ViewBag.PkIuDni"></select>
+                        <span asp-validation-for="FkIuDni" style="color:white"></span>
+                        <span class="label">
+                        Edad : <span style="color:white ; font-size:small " id="result" value="result"></span>
+                        </span>
                     </div>
+                    <br />
                     <div class="form-group">
-                        <label asp-for="FkItnCod" class="control-label"></label>
-                        <select asp-for="FkItnCod" class="form-control" asp-items="ViewBag.FkItnCod"></select>
+                        <label asp-for="FkInCod" class="control-label" style="color:white"></label>
+                        <select id="nivel" asp-for="FkInCod" class="form-control" asp-items="ViewBag.FkInCod" onchange="javascript:calcular('fechanaci')">
+                            <option selected>seleccionar nivel</option>
+                        </select>
                     </div>
+                    <br />
                     <div class="form-group">
-                        <label asp-for="NroAlumno" class="control-label"></label>
-                        <input asp-for="NroAlumno" class="form-control" value="1" />
+                        <label asp-for="FkItnCod" class="control-label" style="color:white"></label>
+                        <select id="tiponivel" asp-for="FkItnCod" class="form-control" asp-items="ViewBag.FkItnCod" >
+                            <option selected>seleccionar tipo de nivel</option>
+                        </select>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label asp-for="NroAlumno" class="control-label" style="color:white"> </label>
+                      <select id="numeroalumno" asp-for="NroAlumno" class="form-control">
+                                <option selected>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                            </select> <span asp-validation-for="NroAlumno" style="color:white"></span>
                         <span asp-validation-for="NroAlumno" class="text-danger"></span>
                     </div>
-                    <div class="form-group">
-                        <label asp-for="FkIuDni" class="control-label"></label>
-                        <select asp-for="FkIuDni" class="form-control" asp-items="ViewBag.FkIuDni"></select>
-                    </div>
+
+
                     <div class="form-group">
                         <input type="submit" value="Registrar niveles" class="btn btn-success" />
                     </div>
@@ -47,7 +92,6 @@
         </div>
     </div>
 </body>
-
 
 
 @section Scripts {

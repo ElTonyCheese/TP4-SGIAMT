@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A SU SERVICIO\\Desktop\\SGIAMT\\SGIAMT.csproj": {}
+    "C:\\Users\\A SU SERVICIO\\Desktop\\repor\\TP4-SGIAMT\\CUS Registrar Alumno\\SGIAMT\\SGIAMT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A SU SERVICIO\\Desktop\\SGIAMT\\SGIAMT.csproj": {
+    "C:\\Users\\A SU SERVICIO\\Desktop\\repor\\TP4-SGIAMT\\CUS Registrar Alumno\\SGIAMT\\SGIAMT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A SU SERVICIO\\Desktop\\SGIAMT\\SGIAMT.csproj",
+        "projectUniqueName": "C:\\Users\\A SU SERVICIO\\Desktop\\repor\\TP4-SGIAMT\\CUS Registrar Alumno\\SGIAMT\\SGIAMT.csproj",
         "projectName": "SGIAMT",
-        "projectPath": "C:\\Users\\A SU SERVICIO\\Desktop\\SGIAMT\\SGIAMT.csproj",
+        "projectPath": "C:\\Users\\A SU SERVICIO\\Desktop\\repor\\TP4-SGIAMT\\CUS Registrar Alumno\\SGIAMT\\SGIAMT.csproj",
         "packagesPath": "C:\\Users\\A SU SERVICIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A SU SERVICIO\\Desktop\\SGIAMT\\obj\\",
+        "outputPath": "C:\\Users\\A SU SERVICIO\\Desktop\\repor\\TP4-SGIAMT\\CUS Registrar Alumno\\SGIAMT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

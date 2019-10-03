@@ -54,7 +54,23 @@ namespace SGIAMT.Controllers
 
                 _context.Add(eUsuario);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Create", "TNivelxTipoNivels");
+                TempData["PkIuDni"] = eUsuario.PkIuDni;
+                TempData["VuNombre"] = eUsuario.VuNombre;
+                TempData["DuFechaNacimiento"] = eUsuario.DuFechaNacimiento;
+
+                if (eUsuario.FkItuTipoUsuario == 1)
+                {
+                    return RedirectToAction("Create", "TNivelxTipoNivels");
+                }
+               else if (eUsuario.FkItuTipoUsuario == 2)
+                {
+                    return RedirectToAction("Create", "EUsuarios");
+                }
+                else if (eUsuario.FkItuTipoUsuario == 3)
+                {
+                    return RedirectToAction("Create", "EUsuarios");
+                }
+
 
             }
            

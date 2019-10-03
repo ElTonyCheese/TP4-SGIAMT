@@ -12529,24 +12529,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Windows 8.1\\.nuget\\packages\\": {},
+    "C:\\Users\\A SU SERVICIO\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Windows 8.1\\Desktop\\Repor\\TP4-SGIAMT\\CUS Registrar Alumno\\SGIAMT\\SGIAMT.csproj",
+      "projectUniqueName": "C:\\Users\\A SU SERVICIO\\Desktop\\repor\\TP4-SGIAMT\\CUS Registrar Alumno\\SGIAMT\\SGIAMT.csproj",
       "projectName": "SGIAMT",
-      "projectPath": "C:\\Users\\Windows 8.1\\Desktop\\Repor\\TP4-SGIAMT\\CUS Registrar Alumno\\SGIAMT\\SGIAMT.csproj",
-      "packagesPath": "C:\\Users\\Windows 8.1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Windows 8.1\\Desktop\\Repor\\TP4-SGIAMT\\CUS Registrar Alumno\\SGIAMT\\obj\\",
+      "projectPath": "C:\\Users\\A SU SERVICIO\\Desktop\\repor\\TP4-SGIAMT\\CUS Registrar Alumno\\SGIAMT\\SGIAMT.csproj",
+      "packagesPath": "C:\\Users\\A SU SERVICIO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\A SU SERVICIO\\Desktop\\repor\\TP4-SGIAMT\\CUS Registrar Alumno\\SGIAMT\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Windows 8.1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\A SU SERVICIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
