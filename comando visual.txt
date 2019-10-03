@@ -1,5 +1,5 @@
 consola:
--Scaffold-DbContext "Server=LACING202A-13;Database=BD_SGIAMTvscus1cu2;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -force
+-Scaffold-DbContext "Server=DESKTOP-HNNEPQ0\ALONSO_PC;Database=BD_SGIAMT;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -force
 -Install-Package Microsoft.EntityFrameworkCore -Version 2.1.11
 
 startup:
